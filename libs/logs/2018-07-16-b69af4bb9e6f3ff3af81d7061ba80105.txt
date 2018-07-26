@@ -1,0 +1,253 @@
+Time : 17:09:45
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO price_break(job_id,sub_total,round_off,additional_charges,total,gst_rate,gst,grand_total) VALUES(?,?,?,?,?,?,?)
+
+Time : 17:07:52
+SQLSTATE[HY000]: General error: 1364 Field 'gst_rate' doesn't have a default value
+Raw SQL : INSERT INTO price_break(job_id,sub_total,round_off,additional_charges,total,gst,grand_total) VALUES(?,?,?,?,?,?,?)
+
+Time : 03:03:16
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'total' at row 1
+Raw SQL : INSERT INTO job_estimate(job_id,products,rate,qty,total,create_on,update_on,notes,status) VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 02:51:45
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 02:47:57
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'value' cannot be null
+Raw SQL : INSERT INTO form_field_options(form_id,field,value,active) VALUES(?,?,?,?)
+
+Time : 02:40:20
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 02:39:59
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'value' cannot be null
+Raw SQL : INSERT INTO form_field_options(form_id,field,value,active) VALUES(?,?,?,?)
+
+Time : 02:32:56
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 02:26:23
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 02:20:06
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 02:15:45
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'fgfd' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 02:13:05
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'fgfd' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 02:11:22
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'fgfd' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 02:06:40
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)

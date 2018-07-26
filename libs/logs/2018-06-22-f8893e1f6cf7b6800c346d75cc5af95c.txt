@@ -1,0 +1,3 @@
+Time : 18:24:09
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'printers-app.fruit' doesn't exist
+Raw SQL : SELECT * FROM fruit WHERE name=?

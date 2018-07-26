@@ -1,0 +1,169 @@
+Time : 18:04:01
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 18:02:43
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 17:47:25
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'vbv' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 17:35:32
+SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value
+Raw SQL : INSERT INTO job_estimate(job_id,products,rate,qty,total,create_on,update_on,notes) VALUES(?,?,?,?,?,?,?,?)
+
+Time : 17:35:06
+SQLSTATE[HY000]: General error: 1364 Field 'notes' doesn't have a default value
+Raw SQL : INSERT INTO job_estimate(job_id,products,rate,qty,total,create_on,update_on) VALUES(?,?,?,?,?,?,?)
+
+Time : 17:34:42
+SQLSTATE[HY000]: General error: 1364 Field 'update_on' doesn't have a default value
+Raw SQL : INSERT INTO job_estimate(job_id,products,rate,qty,total,create_on) VALUES(?,?,?,?,?,?)
+
+Time : 17:34:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1
+Raw SQL : INSERT INTO job_estimate(job_id,products,rate,qty,total,create_on) VALUES(?,?,?,?,??)
+
+Time : 17:32:21
+SQLSTATE[HY000]: General error: 1364 Field 'create_on' doesn't have a default value
+Raw SQL : INSERT INTO job_estimate(job_id,products,rate,qty,total) VALUES(?,?,?,?,?)
+
+Time : 17:27:40
+SQLSTATE[HY000]: General error: 1364 Field 'job_id' doesn't have a default value
+Raw SQL : INSERT INTO job_estimate(products,rate,qty,total) VALUES(?,?,?,?)
+
+Time : 17:27:04
+SQLSTATE[HY000]: General error: 1364 Field 'job_id' doesn't have a default value
+Raw SQL : INSERT INTO job_estimate(products,rate,qty,total) VALUES(?,?,?,?)
+
+Time : 17:26:39
+SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+Raw SQL : INSERT INTO job_estimate(products,rate,qty,total) VALUES(?,?,?,?)
+
+Time : 17:25:55
+SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+Raw SQL : INSERT INTO job_estimate(products,rate,qty,total) VALUES(?,?,?,?)
+
+Time : 17:25:16
+SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+Raw SQL : INSERT INTO job_estimate(products,rate,qty,total) VALUES(?,?,?,?)
+
+Time : 17:24:57
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 17:24:45
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'actual_size_qty' at row 1
+Raw SQL : INSERT INTO `job`( 
+	`job_name`,
+	`job_no`,
+	`job_source`, 
+	`customer_name`, 
+	`date`, 
+	`order_for`, 
+	`item_name`, 
+	`dtp`,   
+	`actual_size`, 
+	`actual_size_qty`, 
+	`printing_size`, 
+	`colours`, 
+	`impresion_details`, 
+	`positive_details`, 
+	`binding`, 
+	`no_n_other`, 
+	`extra_note`, 
+	`paper_n_qty`, 
+	`create_on`, 
+	`update_on`, 
+	`user_id`, 
+	`status`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)

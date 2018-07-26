@@ -1,0 +1,11 @@
+Time : 06:05:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'add_job_form' in 'where clause'
+Raw SQL : SELECT * FROM form_field_options WHERE form_id=add_job_form AND field=order_for_1 AND value LIKE 'a%'
+
+Time : 06:03:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'printers-app.value' doesn't exist
+Raw SQL : SELECT * FROM value WHERE form_id=add_job_form AND field=order_for_1 AND value LIKE 'b%'
+
+Time : 06:03:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1
+Raw SQL : SELECT * FROM value WHERE form_id=add_job_form AND field=order_for_1 AND value LIKE a%
