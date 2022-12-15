@@ -1,7 +1,0 @@
-Time : 03:35:37
-SQLSTATE[42S22]: Column not found: 1054 Unknown column 'employes_id' in 'where clause'
-Raw SQL : SELECT * FROM  employes WHERE  employes_id=3
-
-Time : 03:27:13
-SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codilar.job' doesn't exist
-Raw SQL : SELECT * FROM job WHERE job_id=3
