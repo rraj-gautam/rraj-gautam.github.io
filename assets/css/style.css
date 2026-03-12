@@ -352,6 +352,14 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+  text-align: center;
+}
+
+.role-prefix {
+  font-size: 16px;
+  text-align: center;
+  font-weight: var(--fw-600);
+  margin-bottom: 2px;
 }
 
 .info_more-btn {
@@ -506,6 +514,122 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+.highlights {
+  margin-bottom: 35px;
+}
+
+.highlights-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.highlight-item {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.highlight-item::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.highlight-value {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-600);
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.highlight-label {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  line-height: 1.5;
+}
+
+.toptal-wrapper {
+  margin-bottom: 35px;
+}
+
+.toptal-badge-shell {
+  --toptal-hex: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
+  display: inline-block;
+  background: #25a9ef;
+  padding: 6px;
+  clip-path: var(--toptal-hex);
+}
+
+.toptal-badge {
+  width: 220px;
+  padding: 24px 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #204ecf;
+  text-align: center;
+  background: radial-gradient(circle at 20% -10%, #00c3ff -80%, #fff 30%),
+              radial-gradient(circle at -20% 20%, #00c3ff -80%, #fff 30%),
+              radial-gradient(circle at 70% 100%, #00c3ff -80%, #fff 30%),
+              radial-gradient(circle at 120% 80%, #00c3ff -80%, #fff 30%);
+  background-blend-mode: multiply;
+  clip-path: var(--toptal-hex);
+  box-shadow: 0 28px 50px rgba(6, 30, 96, 0.35);
+  font-family: proxima-nova, Arial, sans-serif;
+}
+
+.toptal-title {
+  margin: 0;
+  color: #204ecf;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.toptal-divider {
+  width: 120px;
+  height: 1px;
+  background: #25a9ef;
+}
+
+.toptal-vetted {
+  font-size: 16px;
+  margin-bottom: -6px;
+}
+
+.toptal-logo {
+  width: 100px;
+}
+
+.toptal-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px;
+  border-radius: 6px;
+  background: #296bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 2px;
+}
+
+.toptal-cta:hover,
+.toptal-cta:focus {
+  background: #0f56f4;
+}
+
 
 
 /**
@@ -551,7 +675,7 @@ main {
 .service-item-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-3);
+  font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
@@ -1389,6 +1513,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about-text { margin-bottom: 40px; }
 
+  .highlights-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
   /* service */
 
   .service-item {
@@ -1728,6 +1856,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
+  }
+
+  .highlights-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   /* testimonials */
